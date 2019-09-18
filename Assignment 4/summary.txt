@@ -1,0 +1,55 @@
+Number of users collected: 210
+
+
+Number of messages collected: 200
+Graph has 195 nodes and 206 edges
+
+Number of communities discovered: 4
+
+Average number of users per community: 48.75
+
+Cluster 1 has 116 nodes
+Cluster 2 has 39 nodes
+Cluster 3 has 20 nodes
+Cluster 4 has 20 nodes
+Total number of tweets: 200
+
+==================Sentiment analysis based on AFINN=======================
+
+Number of Positive Tweets: 65
+
+Number of Negative Tweets: 45
+
+Number of Neutral Tweets: 90
+
+Percentage of tweets with positive sentiment: 32.50%
+
+Percentage of tweets with negative sentiment: 22.50%
+
+Percentage of tweets with neutral sentiment: 45.00%
+
+Positive Tweet Sample:I feel good.
+
+Negative Tweet Sample:RT @F1: No one could stay away from Baku's walls on Friday 😘
+
+#AzerbaijanGP 🇦🇿 #F1 https://t.co/hXAcY1rTsk
+
+Neutral Tweet Sample:With @RenaultF1Team's history in F1, does the team have a museum of Renault F1 cars somewhere?  If so, can you post… https://t.co/EnA8w6x3BP
+
+
+
+========================Gender Analysis of tweets=======================
+
+Number of tweets by Males: 47
+
+Number of tweets by Females: 22
+
+Number of tweets by unknown: 131
+
+Sample tweet by male:With @RenaultF1Team's history in F1, does the team have a museum of Renault F1 cars somewhere?  If so, can you post… https://t.co/EnA8w6x3BP
+
+Sample tweet by female:Questions before #endgame will be back with an update around 5 am ET https://t.co/eqX7xZ5vYA
+
+Sample tweet by unknown:RT @F1: No one could stay away from Baku's walls on Friday 😘
+
+#AzerbaijanGP 🇦🇿 #F1 https://t.co/hXAcY1rTsk

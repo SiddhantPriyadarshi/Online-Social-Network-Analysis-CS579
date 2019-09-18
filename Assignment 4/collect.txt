@@ -1,0 +1,4 @@
+Number of users collected: 210
+
+
+Number of messages collected: 200

@@ -1,0 +1,10 @@
+Graph has 188 nodes and 207 edges
+
+Number of communities discovered: 4
+
+Average number of users per community: 47.0
+
+Cluster 1 has 127 nodes
+Cluster 2 has 20 nodes
+Cluster 3 has 20 nodes
+Cluster 4 has 21 nodes

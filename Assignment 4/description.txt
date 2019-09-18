@@ -1,0 +1,29 @@
+In this project i have taken only one screen_name which is F1. As a huge fan of F1 racing, i wanted to know more about F1 friends. I collected 10 friends 
+of this screen_name and then did a second hop on these collected 10 friends by finding their 20 friends. So i collected friends of friends. For this assignment a total of 210 users were collected. To collect tweets I used #F1 and collected 200 tweets which were centred around co-ordinate location of New York and only filtering out English tweets.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Collect.py
+In this file I took only one user and did two hops and collected friends of their friends. Also I collected 200 tweets and they were centred around New York.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cluster.py
+
+For the names I have collected I applied Grivan-Newman Algorithm and over all got 4 communities. Also I saved graphs, the original graph and also the graph after I applied the Algorithm.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Classify.py
+
+1) The tweets which I got, I did Sentiment Analysis using Afinn dictionary and segregated the tweets into positive, negative and neutral tweets.
+2) Then I applied Gender classification. For this i took the government census Data which told what were the most common names. Then tokenised tweets and made CSR matrix.
+After tuning further i applied logistic regression.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+summarize.py
+
+Scrutinises all the yield records of above documents and makes summary.txt which has all the required examination.

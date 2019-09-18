@@ -1,0 +1,39 @@
+Total number of tweets: 200
+
+==================Sentiment analysis based on AFINN=======================
+
+Number of Positive Tweets: 79
+
+Number of Negative Tweets: 26
+
+Number of Neutral Tweets: 95
+
+Percentage of tweets with positive sentiment: 39.50%
+
+Percentage of tweets with negative sentiment: 13.00%
+
+Percentage of tweets with neutral sentiment: 47.50%
+
+Positive Tweet Sample:The execution of this seems perfect. Innovation where required, but the lack of fixing things that ain't broken.
+Un… https://t.co/Ub9aAlJJse
+
+Negative Tweet Sample:they claimed that people in harlem are poor
+
+Neutral Tweet Sample:The drivers' press conference will get underway at 11:00 local time, with Kimi Raikkonen (Alfa Romeo), Lando Norris… https://t.co/F25htOdhk5
+
+
+
+========================Gender Analysis of tweets=======================
+
+Number of tweets by Males: 46
+
+Number of tweets by Females: 12
+
+Number of tweets by unknown: 142
+
+Sample tweet by male:The execution of this seems perfect. Innovation where required, but the lack of fixing things that ain't broken.
+Un… https://t.co/Ub9aAlJJse
+
+Sample tweet by female:Damn Paul Walker trending 😢
+
+Sample tweet by unknown:they claimed that people in harlem are poor

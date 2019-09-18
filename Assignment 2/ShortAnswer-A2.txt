@@ -1,0 +1,53 @@
+1. Looking at the top errors printed by get_top_misclassified, name two ways you would modify your classifier to improve accuracy (it could be features, tokenization or something else.)
+
+There are various ways to improve the accuracy which are as follows:
+A.  Elimination of the stop words like a, an, the, and and many more.
+B.  Words having low chances of occurrence or frequency can we omitted.
+C.  We can transform the documents into TD-IDF vectors.
+D.  For improving the accuracy of the model we can make use of other available text classifiers such as Naive Bayes, Deep Neural Networks.
+E.  Also tuning few of the parameters of the model can help in considerably improving the frequency.
+Here in this assignment KFold parameter has been assigned a default value of 5. The model’s performance can be checked with values of 10, 15 , … (keeping in mind that the model doesn’t overfit).
+
+2. Implement one of the above methods. How did it affect the results?
+
+We run the model with different KFold  values.
+
+#### K = 5
+
+Mean Accuracies per Setting:
+features=token_pair_features lexicon_features: 0.75125
+features=token_features token_pair_features lexicon_features: 0.74583
+features=token_features token_pair_features: 0.73542
+features=token_pair_features: 0.72875
+min_freq=2: 0.72250
+punct=False: 0.72024
+min_freq=5: 0.71857
+punct=True: 0.70810
+min_freq=10: 0.70143
+features=token_features lexicon_features: 0.69667
+features=token_features: 0.69000
+features=lexicon_features: 0.65125
+testing accuracy=0.730000
+
+#### K = 10
+
+Mean Accuracies per Setting:
+features=token_pair_features lexicon_features: 0.75458
+features=token_features token_pair_features lexicon_features: 0.75000
+features=token_features token_pair_features: 0.74000
+features=token_pair_features: 0.73625
+punct=False: 0.72452
+min_freq=5: 0.72232
+min_freq=2: 0.72054
+min_freq=10: 0.71250
+punct=True: 0.71238
+features=token_features lexicon_features: 0.70208
+features=token_features: 0.69000
+features=lexicon_features: 0.65625
+testing accuracy=0.780000
+
+#### K = 15
+
+We can observe the moment we change the value of K from 5 to 10, there is a change in the performance of the model.
+
+ 
