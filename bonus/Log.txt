@@ -1,0 +1,2 @@
+Siddhants-MacBook-Pro:Bonus siddhant$ python bonus.py
+[(('B', 'F'), 1.0), (('B', 'E'), 0.9333333333333333), (('B', 'G'), 0.9333333333333333)]
